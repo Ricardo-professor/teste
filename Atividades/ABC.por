@@ -12,21 +12,15 @@ programa
 	
 	funcao inicio()
 	{
-<<<<<<< HEAD
-		cadeia nome = "Ricardo"
-=======
 		//Declaração de variáveis
->>>>>>> 647543be5bc61ac84acfce3f654748dc936e8605
+		cadeia nome = "Ricardo"		
 		inteiro A, B, C, Soma
 		real Media
 		real Resultado
 		
-<<<<<<< HEAD
-		escreva("\n" + nome + " informe o número A: ")
-=======
+		
 		//Entrada de dados
-		escreva("Informe o número A: ")
->>>>>>> 647543be5bc61ac84acfce3f654748dc936e8605
+		escreva("\n" + nome + " informe o número A: ")
 		leia(A)
 		escreva("Informe o número B: ")
 		leia(B)
