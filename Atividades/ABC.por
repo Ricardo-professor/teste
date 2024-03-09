@@ -12,19 +12,28 @@ programa
 	
 	funcao inicio()
 	{
+<<<<<<< HEAD
 		cadeia nome = "Ricardo"
+=======
+		//Declaração de variáveis
+>>>>>>> 647543be5bc61ac84acfce3f654748dc936e8605
 		inteiro A, B, C, Soma
 		real Media
 		real Resultado
 		
+<<<<<<< HEAD
 		escreva("\n" + nome + " informe o número A: ")
+=======
+		//Entrada de dados
+		escreva("Informe o número A: ")
+>>>>>>> 647543be5bc61ac84acfce3f654748dc936e8605
 		leia(A)
 		escreva("Informe o número B: ")
 		leia(B)
 		escreva("Informe o número C: ")
 		leia(C)
 	
-
+		//Processamento
 		Soma = A + B
 		se (Soma < C) {
 			escreva("\nA soma de A + B é menor que C")
