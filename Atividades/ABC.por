@@ -12,11 +12,12 @@ programa
 	
 	funcao inicio()
 	{
+		cadeia nome = "Ricardo"
 		inteiro A, B, C, Soma
 		real Media
 		real Resultado
 		
-		escreva("Informe o número A: ")
+		escreva("\n" + nome + " informe o número A: ")
 		leia(A)
 		escreva("Informe o número B: ")
 		leia(B)
